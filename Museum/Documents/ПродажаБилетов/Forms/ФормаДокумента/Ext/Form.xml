@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="Шапка" id="141">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Шапка</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Шапка</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ШапкаРасширеннаяПодсказка" id="142"/>
+			<ChildItems>
+				<UsualGroup name="Основное" id="143">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Основное</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Основное</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ОсновноеРасширеннаяПодсказка" id="144"/>
+					<ChildItems>
+						<InputField name="Номер" id="1">
+							<DataPath>Объект.Number</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+							<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+						</InputField>
+						<InputField name="Дата" id="4">
+							<DataPath>Объект.Date</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+							<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+						</InputField>
+						<InputField name="ТипБилета" id="7">
+							<DataPath>Объект.ТипБилета</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ТипБилетаКонтекстноеМеню" id="8"/>
+							<ExtendedTooltip name="ТипБилетаРасширеннаяПодсказка" id="9"/>
+						</InputField>
+						<InputField name="НомерБилета" id="10">
+							<DataPath>Объект.НомерБилета</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="НомерБилетаКонтекстноеМеню" id="11"/>
+							<ExtendedTooltip name="НомерБилетаРасширеннаяПодсказка" id="12"/>
+						</InputField>
+						<InputField name="ДатаИВремяПродажи" id="13">
+							<DataPath>Объект.ДатаИВремяПродажи</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДатаИВремяПродажиКонтекстноеМеню" id="14"/>
+							<ExtendedTooltip name="ДатаИВремяПродажиРасширеннаяПодсказка" id="15"/>
+						</InputField>
+						<InputField name="КоличествоБилетов" id="16">
+							<DataPath>1/0:bf631b6c-f873-4547-bca4-7ff51cff5fff</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="КоличествоБилетовКонтекстноеМеню" id="17"/>
+							<ExtendedTooltip name="КоличествоБилетовРасширеннаяПодсказка" id="18"/>
+						</InputField>
+						<InputField name="СрокДействияДо" id="31">
+							<DataPath>Объект.СрокДействияДо</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="СрокДействияДоКонтекстноеМеню" id="32"/>
+							<ExtendedTooltip name="СрокДействияДоРасширеннаяПодсказка" id="33"/>
+						</InputField>
+						<InputField name="ЦенаБилета" id="19">
+							<DataPath>Объект.ЦенаБилета</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ЦенаБилетаКонтекстноеМеню" id="20"/>
+							<ExtendedTooltip name="ЦенаБилетаРасширеннаяПодсказка" id="21"/>
+							<Events>
+								<Event name="OnChange">ЦенаБилетаПриИзменении</Event>
+							</Events>
+						</InputField>
+						<InputField name="Скидка" id="28">
+							<DataPath>Объект.Скидка</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="СкидкаКонтекстноеМеню" id="29"/>
+							<ExtendedTooltip name="СкидкаРасширеннаяПодсказка" id="30"/>
+							<Events>
+								<Event name="OnChange">СкидкаПриИзменении</Event>
+							</Events>
+						</InputField>
+						<InputField name="Оплата" id="138">
+							<DataPath>Объект.ИтогоКОплате</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ОплатаКонтекстноеМеню" id="139"/>
+							<ExtendedTooltip name="ОплатаРасширеннаяПодсказка" id="140"/>
+						</InputField>
+						<InputField name="ФормаОплаты" id="22">
+							<DataPath>Объект.ФормаОплаты</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ФормаОплатыКонтекстноеМеню" id="23"/>
+							<ExtendedTooltip name="ФормаОплатыРасширеннаяПодсказка" id="24"/>
+						</InputField>
+						<InputField name="СотрудникПринявшийОплату" id="25">
+							<DataPath>Объект.СотрудникПринявшийОплату</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="СотрудникПринявшийОплатуКонтекстноеМеню" id="26"/>
+							<ExtendedTooltip name="СотрудникПринявшийОплатуРасширеннаяПодсказка" id="27"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаТабДокПокупатели" id="84">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Покупатели</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<ExtendedTooltip name="ГруппаТабДокПокупателиРасширеннаяПодсказка" id="85"/>
+					<ChildItems>
+						<Table name="ТабДокПокупатели" id="86">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.ТабДокПокупатели</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ТабДокПокупателиКонтекстноеМеню" id="87"/>
+							<AutoCommandBar name="ТабДокПокупателиКоманднаяПанель" id="88"/>
+							<ExtendedTooltip name="ТабДокПокупателиРасширеннаяПодсказка" id="89"/>
+							<SearchStringAddition name="ТабДокПокупателиСтрокаПоиска" id="90">
+								<AdditionSource>
+									<Item>ТабДокПокупатели</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ТабДокПокупателиСтрокаПоискаКонтекстноеМеню" id="91"/>
+								<ExtendedTooltip name="ТабДокПокупателиСтрокаПоискаРасширеннаяПодсказка" id="92"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ТабДокПокупателиСостояниеПросмотра" id="93">
+								<AdditionSource>
+									<Item>ТабДокПокупатели</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ТабДокПокупателиСостояниеПросмотраКонтекстноеМеню" id="94"/>
+								<ExtendedTooltip name="ТабДокПокупателиСостояниеПросмотраРасширеннаяПодсказка" id="95"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ТабДокПокупателиУправлениеПоиском" id="96">
+								<AdditionSource>
+									<Item>ТабДокПокупатели</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ТабДокПокупателиУправлениеПоискомКонтекстноеМеню" id="97"/>
+								<ExtendedTooltip name="ТабДокПокупателиУправлениеПоискомРасширеннаяПодсказка" id="98"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ТабДокПокупателиНомерСтроки" id="99">
+									<DataPath>Объект.ТабДокПокупатели.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ТабДокПокупателиНомерСтрокиКонтекстноеМеню" id="100"/>
+									<ExtendedTooltip name="ТабДокПокупателиНомерСтрокиРасширеннаяПодсказка" id="101"/>
+								</LabelField>
+								<InputField name="ТабДокПокупателиКраткоеФИО" id="102">
+									<DataPath>Объект.ТабДокПокупатели.КраткоеФИО</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ТабДокПокупателиКраткоеФИОКонтекстноеМеню" id="103"/>
+									<ExtendedTooltip name="ТабДокПокупателиКраткоеФИОРасширеннаяПодсказка" id="104"/>
+								</InputField>
+								<InputField name="ТабДокПокупателиНомерТелефона" id="105">
+									<DataPath>Объект.ТабДокПокупатели.НомерТелефона</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ТабДокПокупателиНомерТелефонаКонтекстноеМеню" id="106"/>
+									<ExtendedTooltip name="ТабДокПокупателиНомерТелефонаРасширеннаяПодсказка" id="107"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<Pages name="Страницы" id="34">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</Title>
+			<Height>15</Height>
+			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="35"/>
+			<ChildItems>
+				<Page name="ГруппаТабДокВыставки" id="36">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выставки</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаТабДокВыставкиРасширеннаяПодсказка" id="37"/>
+					<ChildItems>
+						<Table name="ТабДокВыставки" id="38">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.ТабДокВыставки</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ТабДокВыставкиКонтекстноеМеню" id="39"/>
+							<AutoCommandBar name="ТабДокВыставкиКоманднаяПанель" id="40"/>
+							<ExtendedTooltip name="ТабДокВыставкиРасширеннаяПодсказка" id="41"/>
+							<SearchStringAddition name="ТабДокВыставкиСтрокаПоиска" id="42">
+								<AdditionSource>
+									<Item>ТабДокВыставки</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ТабДокВыставкиСтрокаПоискаКонтекстноеМеню" id="43"/>
+								<ExtendedTooltip name="ТабДокВыставкиСтрокаПоискаРасширеннаяПодсказка" id="44"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ТабДокВыставкиСостояниеПросмотра" id="45">
+								<AdditionSource>
+									<Item>ТабДокВыставки</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ТабДокВыставкиСостояниеПросмотраКонтекстноеМеню" id="46"/>
+								<ExtendedTooltip name="ТабДокВыставкиСостояниеПросмотраРасширеннаяПодсказка" id="47"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ТабДокВыставкиУправлениеПоиском" id="48">
+								<AdditionSource>
+									<Item>ТабДокВыставки</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ТабДокВыставкиУправлениеПоискомКонтекстноеМеню" id="49"/>
+								<ExtendedTooltip name="ТабДокВыставкиУправлениеПоискомРасширеннаяПодсказка" id="50"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ТабДокВыставкиНомерСтроки" id="51">
+									<DataPath>Объект.ТабДокВыставки.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ТабДокВыставкиНомерСтрокиКонтекстноеМеню" id="52"/>
+									<ExtendedTooltip name="ТабДокВыставкиНомерСтрокиРасширеннаяПодсказка" id="53"/>
+								</LabelField>
+								<InputField name="ТабДокВыставкиВыставка" id="54">
+									<DataPath>Объект.ТабДокВыставки.Выставка</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ТабДокВыставкиВыставкаКонтекстноеМеню" id="55"/>
+									<ExtendedTooltip name="ТабДокВыставкиВыставкаРасширеннаяПодсказка" id="56"/>
+									<Events>
+										<Event name="OnChange">ТабДокВыставкиВыставкаПриИзменении</Event>
+									</Events>
+								</InputField>
+								<InputField name="ТабДокВыставкиДатаИВремяПосещения" id="57">
+									<DataPath>1/0:0e1990f9-4987-48b9-9f9c-75c1b3053178/0:bc516fad-f3c1-4dd8-bb7c-dda1ad707556</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ТабДокВыставкиДатаИВремяПосещенияКонтекстноеМеню" id="58"/>
+									<ExtendedTooltip name="ТабДокВыставкиДатаИВремяПосещенияРасширеннаяПодсказка" id="59"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаТабДокЭкспозиции" id="60">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Экспозиции</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаТабДокЭкспозицииРасширеннаяПодсказка" id="61"/>
+					<ChildItems>
+						<Table name="ТабДокЭкспозиции" id="62">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.ТабДокЭкспозиции</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ТабДокЭкспозицииКонтекстноеМеню" id="63"/>
+							<AutoCommandBar name="ТабДокЭкспозицииКоманднаяПанель" id="64"/>
+							<ExtendedTooltip name="ТабДокЭкспозицииРасширеннаяПодсказка" id="65"/>
+							<SearchStringAddition name="ТабДокЭкспозицииСтрокаПоиска" id="66">
+								<AdditionSource>
+									<Item>ТабДокЭкспозиции</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ТабДокЭкспозицииСтрокаПоискаКонтекстноеМеню" id="67"/>
+								<ExtendedTooltip name="ТабДокЭкспозицииСтрокаПоискаРасширеннаяПодсказка" id="68"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ТабДокЭкспозицииСостояниеПросмотра" id="69">
+								<AdditionSource>
+									<Item>ТабДокЭкспозиции</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ТабДокЭкспозицииСостояниеПросмотраКонтекстноеМеню" id="70"/>
+								<ExtendedTooltip name="ТабДокЭкспозицииСостояниеПросмотраРасширеннаяПодсказка" id="71"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ТабДокЭкспозицииУправлениеПоиском" id="72">
+								<AdditionSource>
+									<Item>ТабДокЭкспозиции</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ТабДокЭкспозицииУправлениеПоискомКонтекстноеМеню" id="73"/>
+								<ExtendedTooltip name="ТабДокЭкспозицииУправлениеПоискомРасширеннаяПодсказка" id="74"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ТабДокЭкспозицииНомерСтроки" id="75">
+									<DataPath>Объект.ТабДокЭкспозиции.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ТабДокЭкспозицииНомерСтрокиКонтекстноеМеню" id="76"/>
+									<ExtendedTooltip name="ТабДокЭкспозицииНомерСтрокиРасширеннаяПодсказка" id="77"/>
+								</LabelField>
+								<InputField name="ТабДокЭкспозицииЭкспозиция" id="78">
+									<DataPath>Объект.ТабДокЭкспозиции.Экспозиция</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ТабДокЭкспозицииЭкспозицияКонтекстноеМеню" id="79"/>
+									<ExtendedTooltip name="ТабДокЭкспозицииЭкспозицияРасширеннаяПодсказка" id="80"/>
+									<Events>
+										<Event name="OnChange">ТабДокЭкспозицииЭкспозицияПриИзменении</Event>
+									</Events>
+								</InputField>
+								<InputField name="ТабДокЭкспозицииДатаИВремяПосещения" id="81">
+									<DataPath>1/0:94998083-318a-401e-94a7-d38cb9f587e5/0:a4aa37b1-f449-4fc7-b77a-c805cd1efb60</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ТабДокЭкспозицииДатаИВремяПосещенияКонтекстноеМеню" id="82"/>
+									<ExtendedTooltip name="ТабДокЭкспозицииДатаИВремяПосещенияРасширеннаяПодсказка" id="83"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаТабДокЭкскурсии" id="108">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Экскурсии</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа таб док экскурсии</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>HorizontalIfPossible</Group>
+					<ExtendedTooltip name="ГруппаТабДокЭкскурсииРасширеннаяПодсказка" id="109"/>
+					<ChildItems>
+						<Table name="ТабДокЭкскурсии" id="110">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.ТабДокЭкскурсии</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ТабДокЭкскурсииКонтекстноеМеню" id="111"/>
+							<AutoCommandBar name="ТабДокЭкскурсииКоманднаяПанель" id="112"/>
+							<ExtendedTooltip name="ТабДокЭкскурсииРасширеннаяПодсказка" id="113"/>
+							<SearchStringAddition name="ТабДокЭкскурсииСтрокаПоиска" id="114">
+								<AdditionSource>
+									<Item>ТабДокЭкскурсии</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ТабДокЭкскурсииСтрокаПоискаКонтекстноеМеню" id="115"/>
+								<ExtendedTooltip name="ТабДокЭкскурсииСтрокаПоискаРасширеннаяПодсказка" id="116"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ТабДокЭкскурсииСостояниеПросмотра" id="117">
+								<AdditionSource>
+									<Item>ТабДокЭкскурсии</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ТабДокЭкскурсииСостояниеПросмотраКонтекстноеМеню" id="118"/>
+								<ExtendedTooltip name="ТабДокЭкскурсииСостояниеПросмотраРасширеннаяПодсказка" id="119"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ТабДокЭкскурсииУправлениеПоиском" id="120">
+								<AdditionSource>
+									<Item>ТабДокЭкскурсии</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ТабДокЭкскурсииУправлениеПоискомКонтекстноеМеню" id="121"/>
+								<ExtendedTooltip name="ТабДокЭкскурсииУправлениеПоискомРасширеннаяПодсказка" id="122"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ТабДокЭкскурсииНомерСтроки" id="123">
+									<DataPath>Объект.ТабДокЭкскурсии.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ТабДокЭкскурсииНомерСтрокиКонтекстноеМеню" id="124"/>
+									<ExtendedTooltip name="ТабДокЭкскурсииНомерСтрокиРасширеннаяПодсказка" id="125"/>
+								</LabelField>
+								<InputField name="ТабДокЭкскурсииЭкскурсия" id="126">
+									<DataPath>Объект.ТабДокЭкскурсии.Экскурсия</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ТабДокЭкскурсииЭкскурсияКонтекстноеМеню" id="127"/>
+									<ExtendedTooltip name="ТабДокЭкскурсииЭкскурсияРасширеннаяПодсказка" id="128"/>
+									<Events>
+										<Event name="OnChange">ТабДокЭкскурсииЭкскурсияПриИзменении</Event>
+									</Events>
+								</InputField>
+								<InputField name="ТабДокЭкскурсииДатаЭкскурсии" id="129">
+									<DataPath>Объект.ТабДокЭкскурсии.ДатаЭкскурсии</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ТабДокЭкскурсииДатаЭкскурсииКонтекстноеМеню" id="130"/>
+									<ExtendedTooltip name="ТабДокЭкскурсииДатаЭкскурсииРасширеннаяПодсказка" id="131"/>
+								</InputField>
+								<InputField name="ТабДокЭкскурсииВремяНачала" id="132">
+									<DataPath>Объект.ТабДокЭкскурсии.ВремяНачала</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ТабДокЭкскурсииВремяНачалаКонтекстноеМеню" id="133"/>
+									<ExtendedTooltip name="ТабДокЭкскурсииВремяНачалаРасширеннаяПодсказка" id="134"/>
+								</InputField>
+								<InputField name="ТабДокЭкскурсииВремяОкончания" id="135">
+									<DataPath>Объект.ТабДокЭкскурсии.ВремяОкончания</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ТабДокЭкскурсииВремяОкончанияКонтекстноеМеню" id="136"/>
+									<ExtendedTooltip name="ТабДокЭкскурсииВремяОкончанияРасширеннаяПодсказка" id="137"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.ПродажаБилетов</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+</Form>

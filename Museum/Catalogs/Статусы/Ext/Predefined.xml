@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.17">
+	<Item id="718493b5-e734-42ec-95c2-092f86f9628d">
+		<Name>КСписанию</Name>
+		<Code>000000002</Code>
+		<Description>К списанию</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2b674dcd-cf60-4f80-b456-1e1811b0a3da">
+		<Name>НаСкладе</Name>
+		<Code>000000006</Code>
+		<Description>На складе</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="14b4af68-1005-4d01-8e6f-5bcfa6f9ea27">
+		<Name>НеИспользуется</Name>
+		<Code>000000005</Code>
+		<Description>Не используется</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="92b35279-7855-4edf-9fbf-5a10b90da235">
+		<Name>Работает</Name>
+		<Code>000000001</Code>
+		<Description>Работает</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="84fe5603-673d-4bb7-9333-3d328f921092">
+		<Name>Списано</Name>
+		<Code>000000003</Code>
+		<Description>Списано</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d400f73c-0ef3-459b-93d9-106b39dc3a13">
+		<Name>Утилизированно</Name>
+		<Code>000000004</Code>
+		<Description>Утилизированно</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

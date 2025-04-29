@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="BeforeWriteAtServer">ПередЗаписьюНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Шапка" id="38">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Шапка</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Шапка</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ШапкаРасширеннаяПодсказка" id="39"/>
+			<ChildItems>
+				<UsualGroup name="Основное" id="40">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Основное</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Основное</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ОсновноеРасширеннаяПодсказка" id="41"/>
+					<ChildItems>
+						<InputField name="Номер" id="1">
+							<DataPath>Объект.Number</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+							<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+						</InputField>
+						<InputField name="Дата" id="4">
+							<DataPath>Объект.Date</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+							<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+						</InputField>
+						<InputField name="ДатаПеремещения" id="47">
+							<DataPath>Объект.ДатаПеремещения</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДатаПеремещенияКонтекстноеМеню" id="48"/>
+							<ExtendedTooltip name="ДатаПеремещенияРасширеннаяПодсказка" id="49"/>
+						</InputField>
+						<InputField name="ОтветственноеЛицо" id="44">
+							<DataPath>Объект.ОтветственноеЛицо</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ОтветственноеЛицоКонтекстноеМеню" id="45"/>
+							<ExtendedTooltip name="ОтветственноеЛицоРасширеннаяПодсказка" id="46"/>
+						</InputField>
+						<InputField name="Откуда" id="10">
+							<DataPath>Объект.Откуда</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ОткудаКонтекстноеМеню" id="11"/>
+							<ExtendedTooltip name="ОткудаРасширеннаяПодсказка" id="12"/>
+						</InputField>
+						<InputField name="Куда" id="13">
+							<DataPath>Объект.Куда</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="КудаКонтекстноеМеню" id="14"/>
+							<ExtendedTooltip name="КудаРасширеннаяПодсказка" id="15"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Причина" id="42">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Причина</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Причина</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ПричинаРасширеннаяПодсказка" id="43"/>
+					<ChildItems>
+						<InputField name="ПричинаПеремещения" id="7">
+							<DataPath>Объект.ПричинаПеремещения</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ПричинаПеремещенияКонтекстноеМеню" id="8"/>
+							<ExtendedTooltip name="ПричинаПеремещенияРасширеннаяПодсказка" id="9"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="Экспонаты" id="16">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.Экспонаты</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ЭкспонатыКонтекстноеМеню" id="17"/>
+			<AutoCommandBar name="ЭкспонатыКоманднаяПанель" id="18"/>
+			<ExtendedTooltip name="ЭкспонатыРасширеннаяПодсказка" id="19"/>
+			<SearchStringAddition name="ЭкспонатыСтрокаПоиска" id="20">
+				<AdditionSource>
+					<Item>Экспонаты</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ЭкспонатыСтрокаПоискаКонтекстноеМеню" id="21"/>
+				<ExtendedTooltip name="ЭкспонатыСтрокаПоискаРасширеннаяПодсказка" id="22"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ЭкспонатыСостояниеПросмотра" id="23">
+				<AdditionSource>
+					<Item>Экспонаты</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ЭкспонатыСостояниеПросмотраКонтекстноеМеню" id="24"/>
+				<ExtendedTooltip name="ЭкспонатыСостояниеПросмотраРасширеннаяПодсказка" id="25"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ЭкспонатыУправлениеПоиском" id="26">
+				<AdditionSource>
+					<Item>Экспонаты</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ЭкспонатыУправлениеПоискомКонтекстноеМеню" id="27"/>
+				<ExtendedTooltip name="ЭкспонатыУправлениеПоискомРасширеннаяПодсказка" id="28"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="ЭкспонатыНомерСтроки" id="29">
+					<DataPath>Объект.Экспонаты.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ЭкспонатыНомерСтрокиКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ЭкспонатыНомерСтрокиРасширеннаяПодсказка" id="31"/>
+				</LabelField>
+				<InputField name="ЭкспонатыНаименование" id="32">
+					<DataPath>Объект.Экспонаты.Наименование</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ЭкспонатыНаименованиеКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="ЭкспонатыНаименованиеРасширеннаяПодсказка" id="34"/>
+					<Events>
+						<Event name="OnChange">ЭкспонатыНаименованиеПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="ЭкспонатыИдентификатор" id="35">
+					<DataPath>Объект.Экспонаты.Идентификатор</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ЭкспонатыИдентификаторКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="ЭкспонатыИдентификаторРасширеннаяПодсказка" id="37"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.ПеремещениеЭкспонатов</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+</Form>
